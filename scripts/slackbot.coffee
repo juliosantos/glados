@@ -23,7 +23,7 @@ module.exports = (robot) ->
       reply: ["recrutar? só se for o júlio"],
     },
     {
-      on: /mp3|MP3|v0|V0|vbr|VBR|legit|LEGIT|flac/i,
+      on: /mp3|MP3|v0|V0|vbr|VBR|\blegit\b|flac/i,
       reply: ["audiofag"],
     },
     {
@@ -43,7 +43,7 @@ module.exports = (robot) ->
       reply: ["morrer mesmo? não é como aquelas pessoas que dizem que morrem se não forem ver os Simply Red mas não morrem nada, ficam só tristes?"]
     },
     {
-      on: /cloud|synergy|big data|paradigm shift|entrepreneur|trep|hustle|crush it|crushing it/i,
+      on: /\bcloud\b|synergy|big data|paradigm shift|entrepreneur|\btrep\b|hustle|crush it|crushing it/i,
       reply: ["bull-fucking-shit"]
     },
     {
@@ -63,7 +63,7 @@ module.exports = (robot) ->
       reply: ["tas a ver? toda a gente se está a cagar para os judeus"]
     },
     {
-      on: /costa/i,
+      on: /\bcosta\b/i,
       reply: ["VEEEEEELHO"]
     },
     {
