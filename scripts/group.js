@@ -1,6 +1,6 @@
 _ = require( "lodash" );
 
-var token = "xoxp-3787708533-13393596279-13394730850-b3a22ad6d5";
+var token = process.env.FAKE_USER_TOKEN;
 
 module.exports = function (robot) {
   robot.hear( /glados group (\w*) (.*)/, function (res) {
